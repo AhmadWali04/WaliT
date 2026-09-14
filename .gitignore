@@ -1,3 +1,5 @@
 .env
 CLAUDE.md
 PRD_Walit.md
+build/
+node_modules/
