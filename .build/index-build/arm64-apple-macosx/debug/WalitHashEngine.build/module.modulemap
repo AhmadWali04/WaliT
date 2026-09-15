@@ -1,0 +1,4 @@
+module WalitHashEngine {
+    umbrella header "/Users/ahmadwali04/Desktop/personal/Projects/WaliT/cpp/WalitHashEngine.h"
+    export *
+}

@@ -1,0 +1,1584 @@
+[
+  {
+    "contents" : {
+      "guid" : "Workspace:/Users/ahmadwali04/Desktop/personal/Projects/WaliT",
+      "name" : "WalitHashEngine",
+      "path" : "/Users/ahmadwali04/Desktop/personal/Projects/WaliT",
+      "projects" : [
+        "6d1408e07db68df6b9828c68f0ba188ceb5f536d1c57db5499c0959b88caa91d",
+        "378475e058134c4a41a776ed6a067ea6ee6f645060e4bd55e3489f5b0af712c3"
+      ]
+    },
+    "signature" : "e0947c24bc539707a299b32ece70a10b429815fe303a80cb04fdd035a87829b1",
+    "type" : "workspace"
+  },
+  {
+    "contents" : {
+      "buildConfigurations" : [
+        {
+          "buildSettings" : {
+            "CLANG_ENABLE_MODULES[__platform_filter=driverkit]" : "YES",
+            "CLANG_ENABLE_MODULES[__platform_filter=ios-maccatalyst]" : "YES",
+            "CLANG_ENABLE_MODULES[__platform_filter=ios;ios-simulator]" : "YES",
+            "CLANG_ENABLE_MODULES[__platform_filter=macos]" : "YES",
+            "CLANG_ENABLE_MODULES[__platform_filter=tvos;tvos-simulator]" : "YES",
+            "CLANG_ENABLE_MODULES[__platform_filter=watchos;watchos-simulator]" : "YES",
+            "CLANG_ENABLE_MODULES[__platform_filter=xros;xros-simulator]" : "YES",
+            "CODE_SIGNING_REQUIRED" : "NO",
+            "CODE_SIGN_IDENTITY" : "",
+            "COMPILER_WORKING_DIRECTORY" : "$(WORKSPACE_DIR)",
+            "COPY_PHASE_STRIP" : "NO",
+            "DEBUG_INFORMATION_FORMAT" : "dwarf",
+            "DRIVERKIT_DEPLOYMENT_TARGET" : "21.0",
+            "DYLIB_INSTALL_NAME_BASE[__platform_filter=driverkit]" : "@rpath",
+            "DYLIB_INSTALL_NAME_BASE[__platform_filter=ios-maccatalyst]" : "@rpath",
+            "DYLIB_INSTALL_NAME_BASE[__platform_filter=ios;ios-simulator]" : "@rpath",
+            "DYLIB_INSTALL_NAME_BASE[__platform_filter=macos]" : "@rpath",
+            "DYLIB_INSTALL_NAME_BASE[__platform_filter=tvos;tvos-simulator]" : "@rpath",
+            "DYLIB_INSTALL_NAME_BASE[__platform_filter=watchos;watchos-simulator]" : "@rpath",
+            "DYLIB_INSTALL_NAME_BASE[__platform_filter=xros;xros-simulator]" : "@rpath",
+            "ENABLE_NS_ASSERTIONS" : "YES",
+            "ENABLE_TESTABILITY" : "YES",
+            "ENABLE_TESTING_SEARCH_PATHS" : "YES",
+            "ENTITLEMENTS_REQUIRED" : "NO",
+            "GCC_OPTIMIZATION_LEVEL" : "0",
+            "GCC_PREPROCESSOR_DEFINITIONS" : [
+              "$(inherited)",
+              "SWIFT_PACKAGE",
+              "DEBUG=1"
+            ],
+            "INDEX_ENABLE_DATA_STORE" : "YES",
+            "IPHONEOS_DEPLOYMENT_TARGET" : "17.0",
+            "IPHONEOS_DEPLOYMENT_TARGET[__platform_filter=ios-maccatalyst]" : "17.0",
+            "KEEP_PRIVATE_EXTERNS" : "NO",
+            "LIBTOOL_NO_WARNING_FOR_NO_SYMBOLS" : "YES",
+            "LINKER_DRIVER" : "auto",
+            "MACOSX_DEPLOYMENT_TARGET" : "13.0",
+            "ONLY_ACTIVE_ARCH" : "YES",
+            "OTHER_CFLAGS" : [
+              "$(inherited)",
+              "-DXcode"
+            ],
+            "OTHER_LDRFLAGS" : [
+
+            ],
+            "OTHER_SWIFT_FLAGS" : [
+              "$(inherited)",
+              "-DXcode"
+            ],
+            "PRODUCT_NAME" : "$(TARGET_NAME)",
+            "SKIP_INSTALL" : "YES",
+            "SPECIALIZATION_SDK_OPTIONS[__platform_filter=ios;ios-simulator]" : [
+
+            ],
+            "SPECIALIZATION_SDK_OPTIONS[__platform_filter=macos]" : [
+
+            ],
+            "SUPPORTED_PLATFORMS" : [
+              "$(AVAILABLE_PLATFORMS)"
+            ],
+            "SWIFT_ACTIVE_COMPILATION_CONDITIONS" : [
+              "$(inherited)",
+              "SWIFT_PACKAGE",
+              "DEBUG"
+            ],
+            "SWIFT_INSTALL_OBJC_HEADER" : "NO",
+            "SWIFT_OBJC_INTERFACE_HEADER_NAME" : "",
+            "SWIFT_OPTIMIZATION_LEVEL" : "-Onone",
+            "TARGETED_DEVICE_FAMILY" : "",
+            "TVOS_DEPLOYMENT_TARGET" : "15.0",
+            "USE_HEADERMAP" : "NO",
+            "WATCHOS_DEPLOYMENT_TARGET" : "9.0",
+            "XROS_DEPLOYMENT_TARGET" : "1.0"
+          },
+          "guid" : "PACKAGE:walit::BUILDCONFIG_0",
+          "impartedBuildProperties" : {
+            "buildSettings" : {
+
+            }
+          },
+          "name" : "Debug"
+        },
+        {
+          "buildSettings" : {
+            "CLANG_ENABLE_MODULES[__platform_filter=driverkit]" : "YES",
+            "CLANG_ENABLE_MODULES[__platform_filter=ios-maccatalyst]" : "YES",
+            "CLANG_ENABLE_MODULES[__platform_filter=ios;ios-simulator]" : "YES",
+            "CLANG_ENABLE_MODULES[__platform_filter=macos]" : "YES",
+            "CLANG_ENABLE_MODULES[__platform_filter=tvos;tvos-simulator]" : "YES",
+            "CLANG_ENABLE_MODULES[__platform_filter=watchos;watchos-simulator]" : "YES",
+            "CLANG_ENABLE_MODULES[__platform_filter=xros;xros-simulator]" : "YES",
+            "CODE_SIGNING_REQUIRED" : "NO",
+            "CODE_SIGN_IDENTITY" : "",
+            "COMPILER_WORKING_DIRECTORY" : "$(WORKSPACE_DIR)",
+            "COPY_PHASE_STRIP" : "YES",
+            "DEBUG_INFORMATION_FORMAT" : "dwarf-with-dsym",
+            "DEPLOYMENT_POSTPROCESSING" : "YES",
+            "DRIVERKIT_DEPLOYMENT_TARGET" : "21.0",
+            "DYLIB_INSTALL_NAME_BASE[__platform_filter=driverkit]" : "@rpath",
+            "DYLIB_INSTALL_NAME_BASE[__platform_filter=ios-maccatalyst]" : "@rpath",
+            "DYLIB_INSTALL_NAME_BASE[__platform_filter=ios;ios-simulator]" : "@rpath",
+            "DYLIB_INSTALL_NAME_BASE[__platform_filter=macos]" : "@rpath",
+            "DYLIB_INSTALL_NAME_BASE[__platform_filter=tvos;tvos-simulator]" : "@rpath",
+            "DYLIB_INSTALL_NAME_BASE[__platform_filter=watchos;watchos-simulator]" : "@rpath",
+            "DYLIB_INSTALL_NAME_BASE[__platform_filter=xros;xros-simulator]" : "@rpath",
+            "ENABLE_TESTING_SEARCH_PATHS" : "YES",
+            "ENTITLEMENTS_REQUIRED" : "NO",
+            "GCC_OPTIMIZATION_LEVEL" : "s",
+            "GCC_PREPROCESSOR_DEFINITIONS" : [
+              "$(inherited)",
+              "SWIFT_PACKAGE"
+            ],
+            "IPHONEOS_DEPLOYMENT_TARGET" : "17.0",
+            "IPHONEOS_DEPLOYMENT_TARGET[__platform_filter=ios-maccatalyst]" : "17.0",
+            "KEEP_PRIVATE_EXTERNS" : "NO",
+            "LIBTOOL_NO_WARNING_FOR_NO_SYMBOLS" : "YES",
+            "LINKER_DRIVER" : "auto",
+            "MACOSX_DEPLOYMENT_TARGET" : "13.0",
+            "OTHER_CFLAGS" : [
+              "$(inherited)",
+              "-DXcode"
+            ],
+            "OTHER_LDRFLAGS" : [
+
+            ],
+            "OTHER_SWIFT_FLAGS" : [
+              "$(inherited)",
+              "-DXcode"
+            ],
+            "PRODUCT_NAME" : "$(TARGET_NAME)",
+            "SKIP_INSTALL" : "YES",
+            "SPECIALIZATION_SDK_OPTIONS[__platform_filter=ios;ios-simulator]" : [
+
+            ],
+            "SPECIALIZATION_SDK_OPTIONS[__platform_filter=macos]" : [
+
+            ],
+            "SUPPORTED_PLATFORMS" : [
+              "$(AVAILABLE_PLATFORMS)"
+            ],
+            "SWIFT_ACTIVE_COMPILATION_CONDITIONS" : [
+              "$(inherited)",
+              "SWIFT_PACKAGE"
+            ],
+            "SWIFT_INSTALL_OBJC_HEADER" : "NO",
+            "SWIFT_OBJC_INTERFACE_HEADER_NAME" : "",
+            "SWIFT_OPTIMIZATION_LEVEL" : "-Owholemodule",
+            "TARGETED_DEVICE_FAMILY" : "",
+            "TVOS_DEPLOYMENT_TARGET" : "15.0",
+            "USE_HEADERMAP" : "NO",
+            "WATCHOS_DEPLOYMENT_TARGET" : "9.0",
+            "XROS_DEPLOYMENT_TARGET" : "1.0"
+          },
+          "guid" : "PACKAGE:walit::BUILDCONFIG_1",
+          "impartedBuildProperties" : {
+            "buildSettings" : {
+
+            }
+          },
+          "name" : "Release"
+        }
+      ],
+      "defaultConfigurationName" : "Release",
+      "groupTree" : {
+        "children" : [
+          {
+            "children" : [
+
+            ],
+            "guid" : "PACKAGE:walit::MAINGROUP::REF_0",
+            "name" : "AdditionalFiles",
+            "path" : "/",
+            "sourceTree" : "<absolute>",
+            "type" : "group"
+          },
+          {
+            "children" : [
+
+            ],
+            "guid" : "PACKAGE:walit::MAINGROUP::REF_1",
+            "name" : "Binaries",
+            "path" : "/",
+            "sourceTree" : "<absolute>",
+            "type" : "group"
+          },
+          {
+            "children" : [
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:walit::MAINGROUP::REF_2::REF_0",
+                "name" : "WalitHashEngineSwiftTests.swift",
+                "path" : "WalitHashEngineSwiftTests.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              }
+            ],
+            "guid" : "PACKAGE:walit::MAINGROUP::REF_2",
+            "name" : "/Users/ahmadwali04/Desktop/personal/Projects/WaliT/SwiftTests",
+            "path" : "/Users/ahmadwali04/Desktop/personal/Projects/WaliT/SwiftTests",
+            "sourceTree" : "<absolute>",
+            "type" : "group"
+          },
+          {
+            "children" : [
+              {
+                "fileType" : "sourcecode.cpp.cpp",
+                "guid" : "PACKAGE:walit::MAINGROUP::REF_3::REF_0",
+                "name" : "WalitHashEngine.cpp",
+                "path" : "WalitHashEngine.cpp",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "file",
+                "guid" : "PACKAGE:walit::MAINGROUP::REF_3::REF_1",
+                "name" : "/Users/ahmadwali04/Desktop/personal/Projects/WaliT/cpp/WalitHashEngine.h",
+                "path" : "/Users/ahmadwali04/Desktop/personal/Projects/WaliT/cpp/WalitHashEngine.h",
+                "sourceTree" : "<absolute>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "file",
+                "guid" : "PACKAGE:walit::MAINGROUP::REF_3::REF_2",
+                "name" : "/Users/ahmadwali04/Desktop/personal/Projects/WaliT/cpp/sha256.h",
+                "path" : "/Users/ahmadwali04/Desktop/personal/Projects/WaliT/cpp/sha256.h",
+                "sourceTree" : "<absolute>",
+                "type" : "file"
+              }
+            ],
+            "guid" : "PACKAGE:walit::MAINGROUP::REF_3",
+            "name" : "/Users/ahmadwali04/Desktop/personal/Projects/WaliT/cpp",
+            "path" : "/Users/ahmadwali04/Desktop/personal/Projects/WaliT/cpp",
+            "sourceTree" : "<absolute>",
+            "type" : "group"
+          },
+          {
+            "children" : [
+              {
+                "fileType" : "sourcecode.cpp.cpp",
+                "guid" : "PACKAGE:walit::MAINGROUP::REF_4::REF_0",
+                "name" : "WalitHashEngine.cpp",
+                "path" : "WalitHashEngine.cpp",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "file",
+                "guid" : "PACKAGE:walit::MAINGROUP::REF_4::REF_1",
+                "name" : "/Users/ahmadwali04/Desktop/personal/Projects/WaliT/cpp/WalitHashEngine.h",
+                "path" : "/Users/ahmadwali04/Desktop/personal/Projects/WaliT/cpp/WalitHashEngine.h",
+                "sourceTree" : "<absolute>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "file",
+                "guid" : "PACKAGE:walit::MAINGROUP::REF_4::REF_2",
+                "name" : "/Users/ahmadwali04/Desktop/personal/Projects/WaliT/cpp/sha256.h",
+                "path" : "/Users/ahmadwali04/Desktop/personal/Projects/WaliT/cpp/sha256.h",
+                "sourceTree" : "<absolute>",
+                "type" : "file"
+              }
+            ],
+            "guid" : "PACKAGE:walit::MAINGROUP::REF_4",
+            "name" : "/Users/ahmadwali04/Desktop/personal/Projects/WaliT/cpp",
+            "path" : "/Users/ahmadwali04/Desktop/personal/Projects/WaliT/cpp",
+            "sourceTree" : "<absolute>",
+            "type" : "group"
+          }
+        ],
+        "guid" : "PACKAGE:walit::MAINGROUP",
+        "name" : "",
+        "path" : "",
+        "sourceTree" : "<group>",
+        "type" : "group"
+      },
+      "guid" : "PACKAGE:walit",
+      "path" : "/Users/ahmadwali04/Desktop/personal/Projects/WaliT/Package.swift",
+      "projectDirectory" : "/Users/ahmadwali04/Desktop/personal/Projects/WaliT",
+      "projectIsPackage" : "true",
+      "projectName" : "WalitHashEngine",
+      "targets" : [
+        "7267b777395c6baaa4d761a8d7149b0bdd8dcbc7768967e8481a7f3407db39d8",
+        "2e55821170d5bd03b117f7d26e6f427516fab392cd257514c12ca0a857e95e0d",
+        "56f4c815be97814d47cf3e18b0e53c59865dea2051fc902a7a02e63f44c4f9ec",
+        "4d36575ea72a41c38ac734726a21af61088eb76eff9f5adcc061e59f254035da",
+        "d81acdd3808507b50f99ced5f7ac9301686cb95ccdf3a77bb3208cfa7b27f07f",
+        "c3aa3d784aea236c264b50f2fca2785d7906371b2e56bdd8e2739c913974adce"
+      ]
+    },
+    "signature" : "6d1408e07db68df6b9828c68f0ba188ceb5f536d1c57db5499c0959b88caa91d",
+    "type" : "project"
+  },
+  {
+    "contents" : {
+      "approvedByUser" : "true",
+      "buildConfigurations" : [
+        {
+          "buildSettings" : {
+            "APPLE_TEST_BUNDLE_RPATH" : "$(APPLE_TEST_BUNDLE_RPATH_SHALLOW_BUNDLE_$(SHALLOW_BUNDLE:default=NO))",
+            "APPLE_TEST_BUNDLE_RPATH_SHALLOW_BUNDLE_NO" : "@loader_path/../../..",
+            "APPLE_TEST_BUNDLE_RPATH_SHALLOW_BUNDLE_YES" : "@loader_path/../..",
+            "BUILD_SERVER_PROTOCOL_TARGET_TAGS" : [
+              "$(inherited)",
+              "test"
+            ],
+            "DOCC_EXTRACT_PROJECT_HEADERS_DOCUMENTATION" : "YES",
+            "DRIVERKIT_DEPLOYMENT_TARGET" : "21.0",
+            "GENERATE_EMBED_IN_CODE_ACCESSORS" : "NO",
+            "GENERATE_INFOPLIST_FILE" : "YES",
+            "GENERATE_RESOURCE_ACCESSORS" : "YES",
+            "INDEX_ENABLE_DATA_STORE" : "YES",
+            "IPHONEOS_DEPLOYMENT_TARGET" : "17.0",
+            "IPHONEOS_DEPLOYMENT_TARGET[__platform_filter=ios-maccatalyst]" : "17.0",
+            "LD_RUNPATH_SEARCH_PATHS" : [
+              "$(RPATH_ORIGIN)/Frameworks",
+              "$(RPATH_ORIGIN)/../Frameworks",
+              "$(inherited)"
+            ],
+            "LD_RUNPATH_SEARCH_PATHS[__platform_filter=driverkit]" : [
+              "$(APPLE_TEST_BUNDLE_RPATH)",
+              "$(inherited)"
+            ],
+            "LD_RUNPATH_SEARCH_PATHS[__platform_filter=ios-maccatalyst]" : [
+              "$(APPLE_TEST_BUNDLE_RPATH)",
+              "$(inherited)"
+            ],
+            "LD_RUNPATH_SEARCH_PATHS[__platform_filter=ios;ios-simulator]" : [
+              "$(APPLE_TEST_BUNDLE_RPATH)",
+              "$(inherited)"
+            ],
+            "LD_RUNPATH_SEARCH_PATHS[__platform_filter=macos]" : [
+              "$(APPLE_TEST_BUNDLE_RPATH)",
+              "$(inherited)"
+            ],
+            "LD_RUNPATH_SEARCH_PATHS[__platform_filter=tvos;tvos-simulator]" : [
+              "$(APPLE_TEST_BUNDLE_RPATH)",
+              "$(inherited)"
+            ],
+            "LD_RUNPATH_SEARCH_PATHS[__platform_filter=watchos;watchos-simulator]" : [
+              "$(APPLE_TEST_BUNDLE_RPATH)",
+              "$(inherited)"
+            ],
+            "LD_RUNPATH_SEARCH_PATHS[__platform_filter=xros;xros-simulator]" : [
+              "$(APPLE_TEST_BUNDLE_RPATH)",
+              "$(inherited)"
+            ],
+            "MACOSX_DEPLOYMENT_TARGET" : "14.0",
+            "OTHER_SWIFT_FLAGS" : [
+              "$(inherited)",
+              "-cxx-interoperability-mode=default",
+              "-Xcc",
+              "-std=c++17"
+            ],
+            "PACKAGE_RESOURCE_TARGET_KIND" : "regular",
+            "PRODUCT_BUNDLE_IDENTIFIER" : "walit.WalitHashEngineSwiftTests",
+            "PRODUCT_MODULE_NAME" : "WalitHashEngineSwiftTests",
+            "PRODUCT_NAME" : "$(TARGET_NAME)",
+            "SDKROOT" : "auto",
+            "SDK_VARIANT" : "auto",
+            "SKIP_INSTALL" : "NO",
+            "SWIFT_ACTIVE_COMPILATION_CONDITIONS" : [
+              "$(inherited)"
+            ],
+            "SWIFT_DISABLE_PARSE_AS_LIBRARY" : "NO",
+            "SWIFT_ENABLE_BARE_SLASH_REGEX" : "NO",
+            "SWIFT_LIBRARIES_ONLY" : "YES",
+            "SWIFT_PACKAGE_NAME" : "walit",
+            "SWIFT_VERSION" : "5",
+            "SYMBOL_GRAPH_EXTRACTOR_OUTPUT_DIR" : "$(TARGET_BUILD_DIR)/$(CURRENT_ARCH)/WalitHashEngineSwiftTests.symbolgraphs",
+            "TAPI_EXTRACT_API_OUTPUT_DIR" : "$(TARGET_BUILD_DIR)/$(CURRENT_ARCH)/WalitHashEngineSwiftTests.symbolgraphs",
+            "TARGET_NAME" : "WalitHashEngineSwiftTests",
+            "TARGET_TEMP_DIR_SUFFIX" : "-p",
+            "TVOS_DEPLOYMENT_TARGET" : "17.0",
+            "WATCHOS_DEPLOYMENT_TARGET" : "26.0",
+            "XROS_DEPLOYMENT_TARGET" : "1.0"
+          },
+          "guid" : "PACKAGE-PRODUCT:walit_WalitHashEngineSwiftTests.WalitHashEngineSwiftTests::BUILDCONFIG_0",
+          "impartedBuildProperties" : {
+            "buildSettings" : {
+
+            }
+          },
+          "name" : "Debug"
+        },
+        {
+          "buildSettings" : {
+            "APPLE_TEST_BUNDLE_RPATH" : "$(APPLE_TEST_BUNDLE_RPATH_SHALLOW_BUNDLE_$(SHALLOW_BUNDLE:default=NO))",
+            "APPLE_TEST_BUNDLE_RPATH_SHALLOW_BUNDLE_NO" : "@loader_path/../../..",
+            "APPLE_TEST_BUNDLE_RPATH_SHALLOW_BUNDLE_YES" : "@loader_path/../..",
+            "BUILD_SERVER_PROTOCOL_TARGET_TAGS" : [
+              "$(inherited)",
+              "test"
+            ],
+            "DOCC_EXTRACT_PROJECT_HEADERS_DOCUMENTATION" : "YES",
+            "DRIVERKIT_DEPLOYMENT_TARGET" : "21.0",
+            "GENERATE_EMBED_IN_CODE_ACCESSORS" : "NO",
+            "GENERATE_INFOPLIST_FILE" : "YES",
+            "GENERATE_RESOURCE_ACCESSORS" : "YES",
+            "INDEX_ENABLE_DATA_STORE" : "YES",
+            "IPHONEOS_DEPLOYMENT_TARGET" : "17.0",
+            "IPHONEOS_DEPLOYMENT_TARGET[__platform_filter=ios-maccatalyst]" : "17.0",
+            "LD_RUNPATH_SEARCH_PATHS" : [
+              "$(RPATH_ORIGIN)/Frameworks",
+              "$(RPATH_ORIGIN)/../Frameworks",
+              "$(inherited)"
+            ],
+            "LD_RUNPATH_SEARCH_PATHS[__platform_filter=driverkit]" : [
+              "$(APPLE_TEST_BUNDLE_RPATH)",
+              "$(inherited)"
+            ],
+            "LD_RUNPATH_SEARCH_PATHS[__platform_filter=ios-maccatalyst]" : [
+              "$(APPLE_TEST_BUNDLE_RPATH)",
+              "$(inherited)"
+            ],
+            "LD_RUNPATH_SEARCH_PATHS[__platform_filter=ios;ios-simulator]" : [
+              "$(APPLE_TEST_BUNDLE_RPATH)",
+              "$(inherited)"
+            ],
+            "LD_RUNPATH_SEARCH_PATHS[__platform_filter=macos]" : [
+              "$(APPLE_TEST_BUNDLE_RPATH)",
+              "$(inherited)"
+            ],
+            "LD_RUNPATH_SEARCH_PATHS[__platform_filter=tvos;tvos-simulator]" : [
+              "$(APPLE_TEST_BUNDLE_RPATH)",
+              "$(inherited)"
+            ],
+            "LD_RUNPATH_SEARCH_PATHS[__platform_filter=watchos;watchos-simulator]" : [
+              "$(APPLE_TEST_BUNDLE_RPATH)",
+              "$(inherited)"
+            ],
+            "LD_RUNPATH_SEARCH_PATHS[__platform_filter=xros;xros-simulator]" : [
+              "$(APPLE_TEST_BUNDLE_RPATH)",
+              "$(inherited)"
+            ],
+            "MACOSX_DEPLOYMENT_TARGET" : "14.0",
+            "OTHER_SWIFT_FLAGS" : [
+              "$(inherited)",
+              "-cxx-interoperability-mode=default",
+              "-Xcc",
+              "-std=c++17"
+            ],
+            "PACKAGE_RESOURCE_TARGET_KIND" : "regular",
+            "PRODUCT_BUNDLE_IDENTIFIER" : "walit.WalitHashEngineSwiftTests",
+            "PRODUCT_MODULE_NAME" : "WalitHashEngineSwiftTests",
+            "PRODUCT_NAME" : "$(TARGET_NAME)",
+            "SDKROOT" : "auto",
+            "SDK_VARIANT" : "auto",
+            "SKIP_INSTALL" : "NO",
+            "SWIFT_ACTIVE_COMPILATION_CONDITIONS" : [
+              "$(inherited)"
+            ],
+            "SWIFT_DISABLE_PARSE_AS_LIBRARY" : "NO",
+            "SWIFT_ENABLE_BARE_SLASH_REGEX" : "NO",
+            "SWIFT_LIBRARIES_ONLY" : "YES",
+            "SWIFT_PACKAGE_NAME" : "walit",
+            "SWIFT_VERSION" : "5",
+            "SYMBOL_GRAPH_EXTRACTOR_OUTPUT_DIR" : "$(TARGET_BUILD_DIR)/$(CURRENT_ARCH)/WalitHashEngineSwiftTests.symbolgraphs",
+            "TAPI_EXTRACT_API_OUTPUT_DIR" : "$(TARGET_BUILD_DIR)/$(CURRENT_ARCH)/WalitHashEngineSwiftTests.symbolgraphs",
+            "TARGET_NAME" : "WalitHashEngineSwiftTests",
+            "TARGET_TEMP_DIR_SUFFIX" : "-p",
+            "TVOS_DEPLOYMENT_TARGET" : "17.0",
+            "WATCHOS_DEPLOYMENT_TARGET" : "26.0",
+            "XROS_DEPLOYMENT_TARGET" : "1.0"
+          },
+          "guid" : "PACKAGE-PRODUCT:walit_WalitHashEngineSwiftTests.WalitHashEngineSwiftTests::BUILDCONFIG_1",
+          "impartedBuildProperties" : {
+            "buildSettings" : {
+
+            }
+          },
+          "name" : "Release"
+        }
+      ],
+      "buildPhases" : [
+        {
+          "buildFiles" : [
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:walit::MAINGROUP::REF_2::REF_0",
+              "guid" : "PACKAGE-PRODUCT:walit_WalitHashEngineSwiftTests.WalitHashEngineSwiftTests::BUILDPHASE_0::0",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            }
+          ],
+          "guid" : "PACKAGE-PRODUCT:walit_WalitHashEngineSwiftTests.WalitHashEngineSwiftTests::BUILDPHASE_0",
+          "type" : "com.apple.buildphase.sources"
+        },
+        {
+          "buildFiles" : [
+            {
+              "guid" : "PACKAGE-PRODUCT:walit_WalitHashEngineSwiftTests.WalitHashEngineSwiftTests::BUILDPHASE_1::0",
+              "platformFilters" : [
+
+              ],
+              "targetReference" : "PACKAGE-TARGET:WalitHashEngine"
+            }
+          ],
+          "guid" : "PACKAGE-PRODUCT:walit_WalitHashEngineSwiftTests.WalitHashEngineSwiftTests::BUILDPHASE_1",
+          "type" : "com.apple.buildphase.frameworks"
+        }
+      ],
+      "buildRules" : [
+
+      ],
+      "customTasks" : [
+
+      ],
+      "dependencies" : [
+        {
+          "guid" : "PACKAGE-TARGET:WalitHashEngine",
+          "platformFilters" : [
+
+          ]
+        }
+      ],
+      "guid" : "PACKAGE-PRODUCT:walit_WalitHashEngineSwiftTests.WalitHashEngineSwiftTests",
+      "name" : "WalitHashEngineSwiftTests-product",
+      "productReference" : {
+        "guid" : "PRODUCTREF-PACKAGE-PRODUCT:walit_WalitHashEngineSwiftTests.WalitHashEngineSwiftTests",
+        "name" : "$(EXECUTABLE_NAME)",
+        "type" : "file"
+      },
+      "productTypeIdentifier" : "com.apple.product-type.bundle.unit-test",
+      "type" : "standard"
+    },
+    "signature" : "7267b777395c6baaa4d761a8d7149b0bdd8dcbc7768967e8481a7f3407db39d8",
+    "type" : "target"
+  },
+  {
+    "contents" : {
+      "approvedByUser" : "true",
+      "buildConfigurations" : [
+        {
+          "buildSettings" : {
+            "DRIVERKIT_DEPLOYMENT_TARGET" : "21.0",
+            "IPHONEOS_DEPLOYMENT_TARGET" : "17.0",
+            "IPHONEOS_DEPLOYMENT_TARGET[__platform_filter=ios-maccatalyst]" : "17.0",
+            "LD_RUNPATH_SEARCH_PATHS" : [
+              "$(inherited)",
+              "$(RPATH_ORIGIN)"
+            ],
+            "LINKER_DRIVER" : "swiftc",
+            "MACOSX_DEPLOYMENT_TARGET" : "14.0",
+            "OTHER_SWIFT_FLAGS" : [
+              "$(inherited)",
+              "-cxx-interoperability-mode=default",
+              "-Xcc",
+              "-std=c++17"
+            ],
+            "PACKAGE_RESOURCE_TARGET_KIND" : "regular",
+            "PRODUCT_BUNDLE_IDENTIFIER" : "walit.WalitHashEngineSwiftTests-test-runner",
+            "PRODUCT_MODULE_NAME" : "WalitHashEngineSwiftTests_test_runner",
+            "PRODUCT_NAME" : "$(TARGET_NAME)",
+            "SDKROOT" : "auto",
+            "SDK_VARIANT" : "auto",
+            "SKIP_INSTALL" : "NO",
+            "SWIFT_VERSION" : "5.0",
+            "TARGET_NAME" : "WalitHashEngineSwiftTests-test-runner",
+            "TVOS_DEPLOYMENT_TARGET" : "17.0",
+            "WATCHOS_DEPLOYMENT_TARGET" : "26.0",
+            "XROS_DEPLOYMENT_TARGET" : "1.0"
+          },
+          "guid" : "PACKAGE-TARGET:WalitHashEngineSwiftTests_test_runner::BUILDCONFIG_0",
+          "impartedBuildProperties" : {
+            "buildSettings" : {
+
+            }
+          },
+          "name" : "Debug"
+        },
+        {
+          "buildSettings" : {
+            "DRIVERKIT_DEPLOYMENT_TARGET" : "21.0",
+            "IPHONEOS_DEPLOYMENT_TARGET" : "17.0",
+            "IPHONEOS_DEPLOYMENT_TARGET[__platform_filter=ios-maccatalyst]" : "17.0",
+            "LD_RUNPATH_SEARCH_PATHS" : [
+              "$(inherited)",
+              "$(RPATH_ORIGIN)"
+            ],
+            "LINKER_DRIVER" : "swiftc",
+            "MACOSX_DEPLOYMENT_TARGET" : "14.0",
+            "OTHER_SWIFT_FLAGS" : [
+              "$(inherited)",
+              "-cxx-interoperability-mode=default",
+              "-Xcc",
+              "-std=c++17"
+            ],
+            "PACKAGE_RESOURCE_TARGET_KIND" : "regular",
+            "PRODUCT_BUNDLE_IDENTIFIER" : "walit.WalitHashEngineSwiftTests-test-runner",
+            "PRODUCT_MODULE_NAME" : "WalitHashEngineSwiftTests_test_runner",
+            "PRODUCT_NAME" : "$(TARGET_NAME)",
+            "SDKROOT" : "auto",
+            "SDK_VARIANT" : "auto",
+            "SKIP_INSTALL" : "NO",
+            "SWIFT_VERSION" : "5.0",
+            "TARGET_NAME" : "WalitHashEngineSwiftTests-test-runner",
+            "TVOS_DEPLOYMENT_TARGET" : "17.0",
+            "WATCHOS_DEPLOYMENT_TARGET" : "26.0",
+            "XROS_DEPLOYMENT_TARGET" : "1.0"
+          },
+          "guid" : "PACKAGE-TARGET:WalitHashEngineSwiftTests_test_runner::BUILDCONFIG_1",
+          "impartedBuildProperties" : {
+            "buildSettings" : {
+
+            }
+          },
+          "name" : "Release"
+        }
+      ],
+      "buildPhases" : [
+        {
+          "buildFiles" : [
+
+          ],
+          "guid" : "PACKAGE-TARGET:WalitHashEngineSwiftTests_test_runner::BUILDPHASE_0",
+          "type" : "com.apple.buildphase.sources"
+        },
+        {
+          "buildFiles" : [
+            {
+              "guid" : "PACKAGE-TARGET:WalitHashEngineSwiftTests_test_runner::BUILDPHASE_1::0",
+              "platformFilters" : [
+
+              ],
+              "targetReference" : "PACKAGE-PRODUCT:walit_WalitHashEngineSwiftTests.WalitHashEngineSwiftTests"
+            }
+          ],
+          "guid" : "PACKAGE-TARGET:WalitHashEngineSwiftTests_test_runner::BUILDPHASE_1",
+          "type" : "com.apple.buildphase.frameworks"
+        }
+      ],
+      "buildRules" : [
+
+      ],
+      "customTasks" : [
+
+      ],
+      "dependencies" : [
+        {
+          "guid" : "PACKAGE-PRODUCT:walit_WalitHashEngineSwiftTests.WalitHashEngineSwiftTests",
+          "platformFilters" : [
+
+          ]
+        }
+      ],
+      "guid" : "PACKAGE-TARGET:WalitHashEngineSwiftTests_test_runner",
+      "name" : "WalitHashEngineSwiftTests-test-runner",
+      "productReference" : {
+        "guid" : "PRODUCTREF-PACKAGE-TARGET:WalitHashEngineSwiftTests_test_runner",
+        "name" : "WalitHashEngineSwiftTests-test-runner",
+        "type" : "file"
+      },
+      "productTypeIdentifier" : "com.apple.product-type.tool.swiftpm-test-runner",
+      "type" : "standard"
+    },
+    "signature" : "2e55821170d5bd03b117f7d26e6f427516fab392cd257514c12ca0a857e95e0d",
+    "type" : "target"
+  },
+  {
+    "contents" : {
+      "approvedByUser" : "true",
+      "buildConfigurations" : [
+        {
+          "buildSettings" : {
+            "EXECUTABLE_PREFIX" : "lib",
+            "EXECUTABLE_PREFIX[__platform_filter=windows-msvc]" : "",
+            "PRODUCT_NAME" : "WalitHashEngine",
+            "SDKROOT" : "auto",
+            "SDK_VARIANT" : "auto",
+            "TARGET_NAME" : "WalitHashEngine-product",
+            "TARGET_TEMP_DIR_SUFFIX" : "-p",
+            "USES_SWIFTPM_UNSAFE_FLAGS" : "NO"
+          },
+          "guid" : "PACKAGE-PRODUCT:walit_WalitHashEngine.WalitHashEngine::BUILDCONFIG_0",
+          "impartedBuildProperties" : {
+            "buildSettings" : {
+
+            }
+          },
+          "name" : "Debug"
+        },
+        {
+          "buildSettings" : {
+            "EXECUTABLE_PREFIX" : "lib",
+            "EXECUTABLE_PREFIX[__platform_filter=windows-msvc]" : "",
+            "PRODUCT_NAME" : "WalitHashEngine",
+            "SDKROOT" : "auto",
+            "SDK_VARIANT" : "auto",
+            "TARGET_NAME" : "WalitHashEngine-product",
+            "TARGET_TEMP_DIR_SUFFIX" : "-p",
+            "USES_SWIFTPM_UNSAFE_FLAGS" : "NO"
+          },
+          "guid" : "PACKAGE-PRODUCT:walit_WalitHashEngine.WalitHashEngine::BUILDCONFIG_1",
+          "impartedBuildProperties" : {
+            "buildSettings" : {
+
+            }
+          },
+          "name" : "Release"
+        }
+      ],
+      "buildPhases" : [
+        {
+          "buildFiles" : [
+            {
+              "guid" : "PACKAGE-PRODUCT:walit_WalitHashEngine.WalitHashEngine::BUILDPHASE_0::0",
+              "platformFilters" : [
+
+              ],
+              "targetReference" : "PACKAGE-TARGET:WalitHashEngine"
+            }
+          ],
+          "guid" : "PACKAGE-PRODUCT:walit_WalitHashEngine.WalitHashEngine::BUILDPHASE_0",
+          "type" : "com.apple.buildphase.frameworks"
+        },
+        {
+          "buildFiles" : [
+
+          ],
+          "guid" : "PACKAGE-PRODUCT:walit_WalitHashEngine.WalitHashEngine::BUILDPHASE_1",
+          "type" : "com.apple.buildphase.sources"
+        }
+      ],
+      "buildRules" : [
+
+      ],
+      "customTasks" : [
+
+      ],
+      "dependencies" : [
+        {
+          "guid" : "PACKAGE-TARGET:WalitHashEngine",
+          "platformFilters" : [
+
+          ]
+        }
+      ],
+      "guid" : "PACKAGE-PRODUCT:walit_WalitHashEngine.WalitHashEngine",
+      "name" : "WalitHashEngine-product",
+      "productReference" : {
+        "guid" : "PRODUCTREF-PACKAGE-PRODUCT:walit_WalitHashEngine.WalitHashEngine",
+        "name" : "$(EXECUTABLE_NAME)",
+        "type" : "file"
+      },
+      "productTypeIdentifier" : "com.apple.product-type.library.static",
+      "type" : "standard"
+    },
+    "signature" : "56f4c815be97814d47cf3e18b0e53c59865dea2051fc902a7a02e63f44c4f9ec",
+    "type" : "target"
+  },
+  {
+    "contents" : {
+      "approvedByUser" : "true",
+      "buildConfigurations" : [
+        {
+          "buildSettings" : {
+            "CLANG_CXX_LANGUAGE_STANDARD" : "c++17",
+            "DEFINES_MODULE" : "YES",
+            "DOCC_EXTRACT_PROJECT_HEADERS_DOCUMENTATION" : "YES",
+            "GENERATE_PRELINK_OBJECT_FILE" : "NO",
+            "HEADER_SEARCH_PATHS" : [
+              "/Users/ahmadwali04/Desktop/personal/Projects/WaliT/cpp",
+              "$(inherited)"
+            ],
+            "MODULEMAP_PATH" : "/Users/ahmadwali04/Desktop/personal/Projects/WaliT/cpp/module.modulemap",
+            "PACKAGE_RESOURCE_TARGET_KIND" : "regular",
+            "PRODUCT_BUNDLE_IDENTIFIER" : "walit.WalitHashEngine",
+            "PRODUCT_MODULE_NAME" : "WalitHashEngine",
+            "PRODUCT_NAME" : "$(TARGET_NAME)",
+            "SDKROOT" : "auto",
+            "SDK_VARIANT" : "auto",
+            "STRIP_INSTALLED_PRODUCT" : "NO",
+            "SUPPORTS_TEXT_BASED_API" : "NO",
+            "SWIFT_DISABLE_PARSE_AS_LIBRARY" : "NO",
+            "SWIFT_ENABLE_BARE_SLASH_REGEX" : "NO",
+            "SWIFT_LIBRARIES_ONLY" : "YES",
+            "SWIFT_VERSION" : "5",
+            "SYMBOL_GRAPH_EXTRACTOR_OUTPUT_DIR" : "$(TARGET_BUILD_DIR)/$(CURRENT_ARCH)/WalitHashEngine.symbolgraphs",
+            "TAPI_DYLIB_INSTALL_NAME" : "WalitHashEngine",
+            "TAPI_EXTRACT_API_OUTPUT_DIR" : "$(TARGET_BUILD_DIR)/$(CURRENT_ARCH)/WalitHashEngine.symbolgraphs",
+            "TARGET_NAME" : "WalitHashEngine",
+            "TARGET_TEMP_DIR_SUFFIX" : "-t"
+          },
+          "guid" : "PACKAGE-TARGET:WalitHashEngine::BUILDCONFIG_0",
+          "impartedBuildProperties" : {
+            "buildSettings" : {
+              "FRAMEWORK_SEARCH_PATHS" : [
+                "$(BUILT_PRODUCTS_DIR)/PackageFrameworks",
+                "$(inherited)"
+              ],
+              "HEADER_SEARCH_PATHS" : [
+                "/Users/ahmadwali04/Desktop/personal/Projects/WaliT/cpp",
+                "$(inherited)"
+              ],
+              "LD_RUNPATH_SEARCH_PATHS" : [
+                "$(RPATH_ORIGIN)",
+                "$(BUILT_PRODUCTS_DIR)/PackageFrameworks",
+                "$(inherited)"
+              ],
+              "LD_WARN_DUPLICATE_LIBRARIES" : "NO",
+              "OTHER_CFLAGS" : [
+                "-fmodule-map-file=/Users/ahmadwali04/Desktop/personal/Projects/WaliT/cpp/module.modulemap",
+                "$(inherited)"
+              ],
+              "OTHER_LDFLAGS[__platform_filter=driverkit]" : [
+                "-lc++",
+                "$(inherited)"
+              ],
+              "OTHER_LDFLAGS[__platform_filter=freebsd]" : [
+                "-lc++",
+                "$(inherited)"
+              ],
+              "OTHER_LDFLAGS[__platform_filter=ios-maccatalyst]" : [
+                "-lc++",
+                "$(inherited)"
+              ],
+              "OTHER_LDFLAGS[__platform_filter=ios;ios-simulator]" : [
+                "-lc++",
+                "$(inherited)"
+              ],
+              "OTHER_LDFLAGS[__platform_filter=linux-android;linux-androideabi]" : [
+                "-lstdc++",
+                "$(inherited)"
+              ],
+              "OTHER_LDFLAGS[__platform_filter=linux-gnu;linux-musl]" : [
+                "-lstdc++",
+                "$(inherited)"
+              ],
+              "OTHER_LDFLAGS[__platform_filter=macos]" : [
+                "-lc++",
+                "$(inherited)"
+              ],
+              "OTHER_LDFLAGS[__platform_filter=openbsd]" : [
+                "-lstdc++",
+                "$(inherited)"
+              ],
+              "OTHER_LDFLAGS[__platform_filter=tvos;tvos-simulator]" : [
+                "-lc++",
+                "$(inherited)"
+              ],
+              "OTHER_LDFLAGS[__platform_filter=wasi;wasi-threads;wasip1;wasip1-threads]" : [
+                "-lstdc++",
+                "$(inherited)"
+              ],
+              "OTHER_LDFLAGS[__platform_filter=watchos;watchos-simulator]" : [
+                "-lc++",
+                "$(inherited)"
+              ],
+              "OTHER_LDFLAGS[__platform_filter=xros;xros-simulator]" : [
+                "-lc++",
+                "$(inherited)"
+              ],
+              "OTHER_SWIFT_FLAGS" : [
+                "-Xcc",
+                "-fmodule-map-file=/Users/ahmadwali04/Desktop/personal/Projects/WaliT/cpp/module.modulemap",
+                "$(inherited)"
+              ]
+            }
+          },
+          "name" : "Debug"
+        },
+        {
+          "buildSettings" : {
+            "CLANG_CXX_LANGUAGE_STANDARD" : "c++17",
+            "DEFINES_MODULE" : "YES",
+            "DOCC_EXTRACT_PROJECT_HEADERS_DOCUMENTATION" : "YES",
+            "GENERATE_PRELINK_OBJECT_FILE" : "NO",
+            "HEADER_SEARCH_PATHS" : [
+              "/Users/ahmadwali04/Desktop/personal/Projects/WaliT/cpp",
+              "$(inherited)"
+            ],
+            "MODULEMAP_PATH" : "/Users/ahmadwali04/Desktop/personal/Projects/WaliT/cpp/module.modulemap",
+            "PACKAGE_RESOURCE_TARGET_KIND" : "regular",
+            "PRODUCT_BUNDLE_IDENTIFIER" : "walit.WalitHashEngine",
+            "PRODUCT_MODULE_NAME" : "WalitHashEngine",
+            "PRODUCT_NAME" : "$(TARGET_NAME)",
+            "SDKROOT" : "auto",
+            "SDK_VARIANT" : "auto",
+            "STRIP_INSTALLED_PRODUCT" : "NO",
+            "SUPPORTS_TEXT_BASED_API" : "NO",
+            "SWIFT_DISABLE_PARSE_AS_LIBRARY" : "NO",
+            "SWIFT_ENABLE_BARE_SLASH_REGEX" : "NO",
+            "SWIFT_LIBRARIES_ONLY" : "YES",
+            "SWIFT_VERSION" : "5",
+            "SYMBOL_GRAPH_EXTRACTOR_OUTPUT_DIR" : "$(TARGET_BUILD_DIR)/$(CURRENT_ARCH)/WalitHashEngine.symbolgraphs",
+            "TAPI_DYLIB_INSTALL_NAME" : "WalitHashEngine",
+            "TAPI_EXTRACT_API_OUTPUT_DIR" : "$(TARGET_BUILD_DIR)/$(CURRENT_ARCH)/WalitHashEngine.symbolgraphs",
+            "TARGET_NAME" : "WalitHashEngine",
+            "TARGET_TEMP_DIR_SUFFIX" : "-t"
+          },
+          "guid" : "PACKAGE-TARGET:WalitHashEngine::BUILDCONFIG_1",
+          "impartedBuildProperties" : {
+            "buildSettings" : {
+              "FRAMEWORK_SEARCH_PATHS" : [
+                "$(BUILT_PRODUCTS_DIR)/PackageFrameworks",
+                "$(inherited)"
+              ],
+              "HEADER_SEARCH_PATHS" : [
+                "/Users/ahmadwali04/Desktop/personal/Projects/WaliT/cpp",
+                "$(inherited)"
+              ],
+              "LD_RUNPATH_SEARCH_PATHS" : [
+                "$(RPATH_ORIGIN)",
+                "$(inherited)"
+              ],
+              "LD_WARN_DUPLICATE_LIBRARIES" : "NO",
+              "OTHER_CFLAGS" : [
+                "-fmodule-map-file=/Users/ahmadwali04/Desktop/personal/Projects/WaliT/cpp/module.modulemap",
+                "$(inherited)"
+              ],
+              "OTHER_LDFLAGS[__platform_filter=driverkit]" : [
+                "-lc++",
+                "$(inherited)"
+              ],
+              "OTHER_LDFLAGS[__platform_filter=freebsd]" : [
+                "-lc++",
+                "$(inherited)"
+              ],
+              "OTHER_LDFLAGS[__platform_filter=ios-maccatalyst]" : [
+                "-lc++",
+                "$(inherited)"
+              ],
+              "OTHER_LDFLAGS[__platform_filter=ios;ios-simulator]" : [
+                "-lc++",
+                "$(inherited)"
+              ],
+              "OTHER_LDFLAGS[__platform_filter=linux-android;linux-androideabi]" : [
+                "-lstdc++",
+                "$(inherited)"
+              ],
+              "OTHER_LDFLAGS[__platform_filter=linux-gnu;linux-musl]" : [
+                "-lstdc++",
+                "$(inherited)"
+              ],
+              "OTHER_LDFLAGS[__platform_filter=macos]" : [
+                "-lc++",
+                "$(inherited)"
+              ],
+              "OTHER_LDFLAGS[__platform_filter=openbsd]" : [
+                "-lstdc++",
+                "$(inherited)"
+              ],
+              "OTHER_LDFLAGS[__platform_filter=tvos;tvos-simulator]" : [
+                "-lc++",
+                "$(inherited)"
+              ],
+              "OTHER_LDFLAGS[__platform_filter=wasi;wasi-threads;wasip1;wasip1-threads]" : [
+                "-lstdc++",
+                "$(inherited)"
+              ],
+              "OTHER_LDFLAGS[__platform_filter=watchos;watchos-simulator]" : [
+                "-lc++",
+                "$(inherited)"
+              ],
+              "OTHER_LDFLAGS[__platform_filter=xros;xros-simulator]" : [
+                "-lc++",
+                "$(inherited)"
+              ],
+              "OTHER_SWIFT_FLAGS" : [
+                "-Xcc",
+                "-fmodule-map-file=/Users/ahmadwali04/Desktop/personal/Projects/WaliT/cpp/module.modulemap",
+                "$(inherited)"
+              ]
+            }
+          },
+          "name" : "Release"
+        }
+      ],
+      "buildPhases" : [
+        {
+          "buildFiles" : [
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:walit::MAINGROUP::REF_3::REF_0",
+              "guid" : "PACKAGE-TARGET:WalitHashEngine::BUILDPHASE_0::0",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            }
+          ],
+          "guid" : "PACKAGE-TARGET:WalitHashEngine::BUILDPHASE_0",
+          "type" : "com.apple.buildphase.sources"
+        },
+        {
+          "buildFiles" : [
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:walit::MAINGROUP::REF_3::REF_1",
+              "guid" : "PACKAGE-TARGET:WalitHashEngine::BUILDPHASE_1::0",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:walit::MAINGROUP::REF_3::REF_2",
+              "guid" : "PACKAGE-TARGET:WalitHashEngine::BUILDPHASE_1::1",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            }
+          ],
+          "guid" : "PACKAGE-TARGET:WalitHashEngine::BUILDPHASE_1",
+          "type" : "com.apple.buildphase.headers"
+        }
+      ],
+      "buildRules" : [
+
+      ],
+      "customTasks" : [
+
+      ],
+      "dependencies" : [
+
+      ],
+      "dynamicTargetVariantGuid" : "PACKAGE-TARGET:WalitHashEngine--50D3CF5B834DA416-dynamic",
+      "guid" : "PACKAGE-TARGET:WalitHashEngine",
+      "name" : "WalitHashEngine",
+      "productReference" : {
+        "guid" : "PRODUCTREF-PACKAGE-TARGET:WalitHashEngine",
+        "name" : "$(EXECUTABLE_NAME)",
+        "type" : "file"
+      },
+      "productTypeIdentifier" : "org.swift.product-type.library.static",
+      "type" : "standard"
+    },
+    "signature" : "4d36575ea72a41c38ac734726a21af61088eb76eff9f5adcc061e59f254035da",
+    "type" : "target"
+  },
+  {
+    "contents" : {
+      "buildConfigurations" : [
+        {
+          "buildSettings" : {
+
+          },
+          "guid" : "PACKAGE-PRODUCT:walit-WalitHashEnginePackageTests.WalitHashEnginePackageTests::BUILDCONFIG_0",
+          "impartedBuildProperties" : {
+            "buildSettings" : {
+
+            }
+          },
+          "name" : "Debug"
+        },
+        {
+          "buildSettings" : {
+
+          },
+          "guid" : "PACKAGE-PRODUCT:walit-WalitHashEnginePackageTests.WalitHashEnginePackageTests::BUILDCONFIG_1",
+          "impartedBuildProperties" : {
+            "buildSettings" : {
+
+            }
+          },
+          "name" : "Release"
+        }
+      ],
+      "buildPhases" : [
+
+      ],
+      "buildRules" : [
+
+      ],
+      "customTasks" : [
+
+      ],
+      "dependencies" : [
+        {
+          "guid" : "PACKAGE-PRODUCT:walit_WalitHashEngineSwiftTests.WalitHashEngineSwiftTests",
+          "platformFilters" : [
+
+          ]
+        },
+        {
+          "guid" : "PACKAGE-TARGET:WalitHashEngineSwiftTests_test_runner",
+          "platformFilters" : [
+
+          ]
+        }
+      ],
+      "guid" : "PACKAGE-PRODUCT:walit-WalitHashEnginePackageTests.WalitHashEnginePackageTests",
+      "name" : "WalitHashEnginePackageTests-product",
+      "type" : "aggregate"
+    },
+    "signature" : "c3aa3d784aea236c264b50f2fca2785d7906371b2e56bdd8e2739c913974adce",
+    "type" : "target"
+  },
+  {
+    "contents" : {
+      "approvedByUser" : "true",
+      "buildConfigurations" : [
+        {
+          "buildSettings" : {
+            "CLANG_CXX_LANGUAGE_STANDARD" : "c++17",
+            "DEFINES_MODULE" : "YES",
+            "DOCC_EXTRACT_PROJECT_HEADERS_DOCUMENTATION" : "YES",
+            "EXECUTABLE_PREFIX" : "lib",
+            "EXECUTABLE_PREFIX[__platform_filter=windows-msvc]" : "",
+            "HEADER_SEARCH_PATHS" : [
+              "/Users/ahmadwali04/Desktop/personal/Projects/WaliT/cpp",
+              "$(inherited)"
+            ],
+            "MODULEMAP_PATH" : "/Users/ahmadwali04/Desktop/personal/Projects/WaliT/cpp/module.modulemap",
+            "PACKAGE_RESOURCE_TARGET_KIND" : "regular",
+            "PRODUCT_BUNDLE_IDENTIFIER" : "walit.WalitHashEngine",
+            "PRODUCT_MODULE_NAME" : "WalitHashEngine",
+            "PRODUCT_NAME" : "WalitHashEngine",
+            "SDKROOT" : "auto",
+            "SDK_VARIANT" : "auto",
+            "SUPPORTS_TEXT_BASED_API" : "NO",
+            "SWIFT_DISABLE_PARSE_AS_LIBRARY" : "NO",
+            "SWIFT_ENABLE_BARE_SLASH_REGEX" : "NO",
+            "SWIFT_LIBRARIES_ONLY" : "YES",
+            "SWIFT_VERSION" : "5",
+            "SYMBOL_GRAPH_EXTRACTOR_OUTPUT_DIR" : "$(TARGET_BUILD_DIR)/$(CURRENT_ARCH)/WalitHashEngine.symbolgraphs",
+            "TAPI_EXTRACT_API_OUTPUT_DIR" : "$(TARGET_BUILD_DIR)/$(CURRENT_ARCH)/WalitHashEngine.symbolgraphs",
+            "TARGET_NAME" : "WalitHashEngine",
+            "TARGET_TEMP_DIR_SUFFIX" : "-t"
+          },
+          "guid" : "PACKAGE-TARGET:WalitHashEngine--50D3CF5B834DA416-dynamic::BUILDCONFIG_0",
+          "impartedBuildProperties" : {
+            "buildSettings" : {
+              "FRAMEWORK_SEARCH_PATHS" : [
+                "$(BUILT_PRODUCTS_DIR)/PackageFrameworks",
+                "$(inherited)"
+              ],
+              "HEADER_SEARCH_PATHS" : [
+                "/Users/ahmadwali04/Desktop/personal/Projects/WaliT/cpp",
+                "$(inherited)"
+              ],
+              "LD_RUNPATH_SEARCH_PATHS" : [
+                "$(RPATH_ORIGIN)",
+                "$(BUILT_PRODUCTS_DIR)/PackageFrameworks",
+                "$(inherited)"
+              ],
+              "LD_WARN_DUPLICATE_LIBRARIES" : "NO",
+              "OTHER_CFLAGS" : [
+                "-fmodule-map-file=/Users/ahmadwali04/Desktop/personal/Projects/WaliT/cpp/module.modulemap",
+                "$(inherited)"
+              ],
+              "OTHER_LDFLAGS[__platform_filter=driverkit]" : [
+                "-lc++",
+                "$(inherited)"
+              ],
+              "OTHER_LDFLAGS[__platform_filter=freebsd]" : [
+                "-lc++",
+                "$(inherited)"
+              ],
+              "OTHER_LDFLAGS[__platform_filter=ios-maccatalyst]" : [
+                "-lc++",
+                "$(inherited)"
+              ],
+              "OTHER_LDFLAGS[__platform_filter=ios;ios-simulator]" : [
+                "-lc++",
+                "$(inherited)"
+              ],
+              "OTHER_LDFLAGS[__platform_filter=linux-android;linux-androideabi]" : [
+                "-lstdc++",
+                "$(inherited)"
+              ],
+              "OTHER_LDFLAGS[__platform_filter=linux-gnu;linux-musl]" : [
+                "-lstdc++",
+                "$(inherited)"
+              ],
+              "OTHER_LDFLAGS[__platform_filter=macos]" : [
+                "-lc++",
+                "$(inherited)"
+              ],
+              "OTHER_LDFLAGS[__platform_filter=openbsd]" : [
+                "-lstdc++",
+                "$(inherited)"
+              ],
+              "OTHER_LDFLAGS[__platform_filter=tvos;tvos-simulator]" : [
+                "-lc++",
+                "$(inherited)"
+              ],
+              "OTHER_LDFLAGS[__platform_filter=wasi;wasi-threads;wasip1;wasip1-threads]" : [
+                "-lstdc++",
+                "$(inherited)"
+              ],
+              "OTHER_LDFLAGS[__platform_filter=watchos;watchos-simulator]" : [
+                "-lc++",
+                "$(inherited)"
+              ],
+              "OTHER_LDFLAGS[__platform_filter=xros;xros-simulator]" : [
+                "-lc++",
+                "$(inherited)"
+              ],
+              "OTHER_SWIFT_FLAGS" : [
+                "-Xcc",
+                "-fmodule-map-file=/Users/ahmadwali04/Desktop/personal/Projects/WaliT/cpp/module.modulemap",
+                "$(inherited)"
+              ]
+            }
+          },
+          "name" : "Debug"
+        },
+        {
+          "buildSettings" : {
+            "CLANG_CXX_LANGUAGE_STANDARD" : "c++17",
+            "DEFINES_MODULE" : "YES",
+            "DOCC_EXTRACT_PROJECT_HEADERS_DOCUMENTATION" : "YES",
+            "EXECUTABLE_PREFIX" : "lib",
+            "EXECUTABLE_PREFIX[__platform_filter=windows-msvc]" : "",
+            "HEADER_SEARCH_PATHS" : [
+              "/Users/ahmadwali04/Desktop/personal/Projects/WaliT/cpp",
+              "$(inherited)"
+            ],
+            "MODULEMAP_PATH" : "/Users/ahmadwali04/Desktop/personal/Projects/WaliT/cpp/module.modulemap",
+            "PACKAGE_RESOURCE_TARGET_KIND" : "regular",
+            "PRODUCT_BUNDLE_IDENTIFIER" : "walit.WalitHashEngine",
+            "PRODUCT_MODULE_NAME" : "WalitHashEngine",
+            "PRODUCT_NAME" : "WalitHashEngine",
+            "SDKROOT" : "auto",
+            "SDK_VARIANT" : "auto",
+            "SUPPORTS_TEXT_BASED_API" : "NO",
+            "SWIFT_DISABLE_PARSE_AS_LIBRARY" : "NO",
+            "SWIFT_ENABLE_BARE_SLASH_REGEX" : "NO",
+            "SWIFT_LIBRARIES_ONLY" : "YES",
+            "SWIFT_VERSION" : "5",
+            "SYMBOL_GRAPH_EXTRACTOR_OUTPUT_DIR" : "$(TARGET_BUILD_DIR)/$(CURRENT_ARCH)/WalitHashEngine.symbolgraphs",
+            "TAPI_EXTRACT_API_OUTPUT_DIR" : "$(TARGET_BUILD_DIR)/$(CURRENT_ARCH)/WalitHashEngine.symbolgraphs",
+            "TARGET_NAME" : "WalitHashEngine",
+            "TARGET_TEMP_DIR_SUFFIX" : "-t"
+          },
+          "guid" : "PACKAGE-TARGET:WalitHashEngine--50D3CF5B834DA416-dynamic::BUILDCONFIG_1",
+          "impartedBuildProperties" : {
+            "buildSettings" : {
+              "FRAMEWORK_SEARCH_PATHS" : [
+                "$(BUILT_PRODUCTS_DIR)/PackageFrameworks",
+                "$(inherited)"
+              ],
+              "HEADER_SEARCH_PATHS" : [
+                "/Users/ahmadwali04/Desktop/personal/Projects/WaliT/cpp",
+                "$(inherited)"
+              ],
+              "LD_RUNPATH_SEARCH_PATHS" : [
+                "$(RPATH_ORIGIN)",
+                "$(inherited)"
+              ],
+              "LD_WARN_DUPLICATE_LIBRARIES" : "NO",
+              "OTHER_CFLAGS" : [
+                "-fmodule-map-file=/Users/ahmadwali04/Desktop/personal/Projects/WaliT/cpp/module.modulemap",
+                "$(inherited)"
+              ],
+              "OTHER_LDFLAGS[__platform_filter=driverkit]" : [
+                "-lc++",
+                "$(inherited)"
+              ],
+              "OTHER_LDFLAGS[__platform_filter=freebsd]" : [
+                "-lc++",
+                "$(inherited)"
+              ],
+              "OTHER_LDFLAGS[__platform_filter=ios-maccatalyst]" : [
+                "-lc++",
+                "$(inherited)"
+              ],
+              "OTHER_LDFLAGS[__platform_filter=ios;ios-simulator]" : [
+                "-lc++",
+                "$(inherited)"
+              ],
+              "OTHER_LDFLAGS[__platform_filter=linux-android;linux-androideabi]" : [
+                "-lstdc++",
+                "$(inherited)"
+              ],
+              "OTHER_LDFLAGS[__platform_filter=linux-gnu;linux-musl]" : [
+                "-lstdc++",
+                "$(inherited)"
+              ],
+              "OTHER_LDFLAGS[__platform_filter=macos]" : [
+                "-lc++",
+                "$(inherited)"
+              ],
+              "OTHER_LDFLAGS[__platform_filter=openbsd]" : [
+                "-lstdc++",
+                "$(inherited)"
+              ],
+              "OTHER_LDFLAGS[__platform_filter=tvos;tvos-simulator]" : [
+                "-lc++",
+                "$(inherited)"
+              ],
+              "OTHER_LDFLAGS[__platform_filter=wasi;wasi-threads;wasip1;wasip1-threads]" : [
+                "-lstdc++",
+                "$(inherited)"
+              ],
+              "OTHER_LDFLAGS[__platform_filter=watchos;watchos-simulator]" : [
+                "-lc++",
+                "$(inherited)"
+              ],
+              "OTHER_LDFLAGS[__platform_filter=xros;xros-simulator]" : [
+                "-lc++",
+                "$(inherited)"
+              ],
+              "OTHER_SWIFT_FLAGS" : [
+                "-Xcc",
+                "-fmodule-map-file=/Users/ahmadwali04/Desktop/personal/Projects/WaliT/cpp/module.modulemap",
+                "$(inherited)"
+              ]
+            }
+          },
+          "name" : "Release"
+        }
+      ],
+      "buildPhases" : [
+        {
+          "buildFiles" : [
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:walit::MAINGROUP::REF_4::REF_0",
+              "guid" : "PACKAGE-TARGET:WalitHashEngine--50D3CF5B834DA416-dynamic::BUILDPHASE_0::0",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            }
+          ],
+          "guid" : "PACKAGE-TARGET:WalitHashEngine--50D3CF5B834DA416-dynamic::BUILDPHASE_0",
+          "type" : "com.apple.buildphase.sources"
+        },
+        {
+          "buildFiles" : [
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:walit::MAINGROUP::REF_4::REF_1",
+              "guid" : "PACKAGE-TARGET:WalitHashEngine--50D3CF5B834DA416-dynamic::BUILDPHASE_1::0",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:walit::MAINGROUP::REF_4::REF_2",
+              "guid" : "PACKAGE-TARGET:WalitHashEngine--50D3CF5B834DA416-dynamic::BUILDPHASE_1::1",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            }
+          ],
+          "guid" : "PACKAGE-TARGET:WalitHashEngine--50D3CF5B834DA416-dynamic::BUILDPHASE_1",
+          "type" : "com.apple.buildphase.headers"
+        }
+      ],
+      "buildRules" : [
+
+      ],
+      "customTasks" : [
+
+      ],
+      "dependencies" : [
+
+      ],
+      "guid" : "PACKAGE-TARGET:WalitHashEngine--50D3CF5B834DA416-dynamic",
+      "name" : "WalitHashEngine",
+      "productReference" : {
+        "guid" : "PRODUCTREF-PACKAGE-TARGET:WalitHashEngine--50D3CF5B834DA416-dynamic",
+        "name" : "$(EXECUTABLE_NAME)",
+        "type" : "file"
+      },
+      "productTypeIdentifier" : "com.apple.product-type.library.dynamic",
+      "type" : "standard"
+    },
+    "signature" : "d81acdd3808507b50f99ced5f7ac9301686cb95ccdf3a77bb3208cfa7b27f07f",
+    "type" : "target"
+  },
+  {
+    "contents" : {
+      "buildConfigurations" : [
+        {
+          "buildSettings" : {
+            "PRODUCT_NAME" : "$(TARGET_NAME)",
+            "SDKROOT" : "auto",
+            "SDK_VARIANT" : "auto",
+            "SKIP_INSTALL" : "YES",
+            "SUPPORTED_PLATFORMS" : [
+              "$(AVAILABLE_PLATFORMS)"
+            ]
+          },
+          "guid" : "AGGREGATE::BUILDCONFIG_0",
+          "impartedBuildProperties" : {
+            "buildSettings" : {
+
+            }
+          },
+          "name" : "Debug"
+        },
+        {
+          "buildSettings" : {
+            "PRODUCT_NAME" : "$(TARGET_NAME)",
+            "SDKROOT" : "auto",
+            "SDK_VARIANT" : "auto",
+            "SKIP_INSTALL" : "YES",
+            "SUPPORTED_PLATFORMS" : [
+              "$(AVAILABLE_PLATFORMS)"
+            ]
+          },
+          "guid" : "AGGREGATE::BUILDCONFIG_1",
+          "impartedBuildProperties" : {
+            "buildSettings" : {
+
+            }
+          },
+          "name" : "Release"
+        }
+      ],
+      "defaultConfigurationName" : "Release",
+      "developmentRegion" : "en",
+      "groupTree" : {
+        "children" : [
+
+        ],
+        "guid" : "AGGREGATE::MAINGROUP",
+        "name" : "",
+        "path" : "",
+        "sourceTree" : "<group>",
+        "type" : "group"
+      },
+      "guid" : "AGGREGATE",
+      "path" : "/Users/ahmadwali04/Desktop/personal/Projects/WaliT/Package.swift",
+      "projectDirectory" : "/Users/ahmadwali04/Desktop/personal/Projects/WaliT",
+      "projectIsPackage" : "true",
+      "projectName" : "Aggregate",
+      "targets" : [
+        "e1a2407f8a6e6241bc740c0324c99933f232918acb720303cf3a4f686ae94749",
+        "5347ac09f98fcc096a1d987518a716438f7feb93973de1d5e69aff2c3cfd9ddd"
+      ]
+    },
+    "signature" : "378475e058134c4a41a776ed6a067ea6ee6f645060e4bd55e3489f5b0af712c3",
+    "type" : "project"
+  },
+  {
+    "contents" : {
+      "buildConfigurations" : [
+        {
+          "buildSettings" : {
+
+          },
+          "guid" : "ALL-INCLUDING-TESTS::BUILDCONFIG_0",
+          "impartedBuildProperties" : {
+            "buildSettings" : {
+
+            }
+          },
+          "name" : "Debug"
+        },
+        {
+          "buildSettings" : {
+
+          },
+          "guid" : "ALL-INCLUDING-TESTS::BUILDCONFIG_1",
+          "impartedBuildProperties" : {
+            "buildSettings" : {
+
+            }
+          },
+          "name" : "Release"
+        }
+      ],
+      "buildPhases" : [
+
+      ],
+      "buildRules" : [
+
+      ],
+      "customTasks" : [
+
+      ],
+      "dependencies" : [
+        {
+          "guid" : "PACKAGE-PRODUCT:walit_WalitHashEngineSwiftTests.WalitHashEngineSwiftTests",
+          "platformFilters" : [
+
+          ]
+        },
+        {
+          "guid" : "PACKAGE-TARGET:WalitHashEngineSwiftTests_test_runner",
+          "platformFilters" : [
+
+          ]
+        },
+        {
+          "guid" : "PACKAGE-PRODUCT:walit_WalitHashEngine.WalitHashEngine",
+          "platformFilters" : [
+
+          ]
+        },
+        {
+          "guid" : "PACKAGE-TARGET:WalitHashEngine",
+          "platformFilters" : [
+
+          ]
+        }
+      ],
+      "guid" : "ALL-INCLUDING-TESTS",
+      "name" : "AllIncludingTests",
+      "type" : "aggregate"
+    },
+    "signature" : "e1a2407f8a6e6241bc740c0324c99933f232918acb720303cf3a4f686ae94749",
+    "type" : "target"
+  },
+  {
+    "contents" : {
+      "buildConfigurations" : [
+        {
+          "buildSettings" : {
+
+          },
+          "guid" : "ALL-EXCLUDING-TESTS::BUILDCONFIG_0",
+          "impartedBuildProperties" : {
+            "buildSettings" : {
+
+            }
+          },
+          "name" : "Debug"
+        },
+        {
+          "buildSettings" : {
+
+          },
+          "guid" : "ALL-EXCLUDING-TESTS::BUILDCONFIG_1",
+          "impartedBuildProperties" : {
+            "buildSettings" : {
+
+            }
+          },
+          "name" : "Release"
+        }
+      ],
+      "buildPhases" : [
+
+      ],
+      "buildRules" : [
+
+      ],
+      "customTasks" : [
+
+      ],
+      "dependencies" : [
+        {
+          "guid" : "PACKAGE-PRODUCT:walit_WalitHashEngine.WalitHashEngine",
+          "platformFilters" : [
+
+          ]
+        },
+        {
+          "guid" : "PACKAGE-TARGET:WalitHashEngine",
+          "platformFilters" : [
+
+          ]
+        }
+      ],
+      "guid" : "ALL-EXCLUDING-TESTS",
+      "name" : "AllExcludingTests",
+      "type" : "aggregate"
+    },
+    "signature" : "5347ac09f98fcc096a1d987518a716438f7feb93973de1d5e69aff2c3cfd9ddd",
+    "type" : "target"
+  }
+]

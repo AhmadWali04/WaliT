@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/ahmadwali04/Desktop/personal/Projects/WaliT/.build/index-build/arm64-apple-macosx/debug/WalitHashEngineSwiftTests.build/primary.swiftdeps"
+  },
+  "/Users/ahmadwali04/Desktop/personal/Projects/WaliT/SwiftTests/WalitHashEngineSwiftTests.swift": {
+    "dependencies": "/Users/ahmadwali04/Desktop/personal/Projects/WaliT/.build/index-build/arm64-apple-macosx/debug/WalitHashEngineSwiftTests.build/WalitHashEngineSwiftTests.d",
+    "object": "/Users/ahmadwali04/Desktop/personal/Projects/WaliT/.build/index-build/arm64-apple-macosx/debug/WalitHashEngineSwiftTests.build/WalitHashEngineSwiftTests.swift.o",
+    "swiftmodule": "/Users/ahmadwali04/Desktop/personal/Projects/WaliT/.build/index-build/arm64-apple-macosx/debug/WalitHashEngineSwiftTests.build/WalitHashEngineSwiftTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/ahmadwali04/Desktop/personal/Projects/WaliT/.build/index-build/arm64-apple-macosx/debug/WalitHashEngineSwiftTests.build/WalitHashEngineSwiftTests.swiftdeps",
+    "diagnostics": "/Users/ahmadwali04/Desktop/personal/Projects/WaliT/.build/index-build/arm64-apple-macosx/debug/WalitHashEngineSwiftTests.build/WalitHashEngineSwiftTests.dia"  }
+}

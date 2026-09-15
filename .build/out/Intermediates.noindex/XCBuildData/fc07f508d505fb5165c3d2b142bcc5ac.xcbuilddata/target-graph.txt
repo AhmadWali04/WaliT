@@ -1,0 +1,11 @@
+Target dependency graph (4 targets)
+Target 'AllIncludingTests' in project 'Aggregate'
+➜ Explicit dependency on target 'WalitHashEngineSwiftTests-product' in project 'WalitHashEngine'
+➜ Dependency on target 'WalitHashEngineSwiftTests-product' in project 'WalitHashEngine' via transitive dependency through 'WalitHashEngineSwiftTests-test-runner'
+➜ Explicit dependency on target 'WalitHashEngine-product' in project 'WalitHashEngine'
+➜ Explicit dependency on target 'WalitHashEngine' in project 'WalitHashEngine'
+Target 'WalitHashEngine-product' in project 'WalitHashEngine'
+➜ Explicit dependency on target 'WalitHashEngine' in project 'WalitHashEngine'
+Target 'WalitHashEngineSwiftTests-product' in project 'WalitHashEngine'
+➜ Explicit dependency on target 'WalitHashEngine' in project 'WalitHashEngine'
+Target 'WalitHashEngine' in project 'WalitHashEngine' (no dependencies)

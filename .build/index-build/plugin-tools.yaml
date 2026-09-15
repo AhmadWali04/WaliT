@@ -1,0 +1,70 @@
+client:
+  name: basic
+  file-system: device-agnostic
+tools: {}
+targets:
+  "PackageStructure": ["<PackageStructure>"]
+  "WalitHashEngine-arm64-apple-macosx-debug.module": ["<WalitHashEngine-arm64-apple-macosx-debug.module>"]
+  "WalitHashEnginePackageTests-arm64-apple-macosx-debug.module": ["<WalitHashEnginePackageTests-arm64-apple-macosx-debug.module>"]
+  "WalitHashEngineSwiftTests-arm64-apple-macosx-debug.module": ["<WalitHashEngineSwiftTests-arm64-apple-macosx-debug.module>"]
+  "main": []
+  "test": ["<WalitHashEngineSwiftTests-arm64-apple-macosx-debug.module>"]
+default: "main"
+nodes:
+  "/Users/ahmadwali04/Desktop/personal/Projects/WaliT/SwiftTests/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+  "/Users/ahmadwali04/Desktop/personal/Projects/WaliT/cpp/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+commands:
+  "/Users/ahmadwali04/Desktop/personal/Projects/WaliT/.build/index-build/arm64-apple-macosx/debug/WalitHashEnginePackageTests.build/sources":
+    tool: write-auxiliary-file
+    inputs: ["<sources-file-list>","/Users/ahmadwali04/Desktop/personal/Projects/WaliT/.build/index-build/arm64-apple-macosx/debug/WalitHashEnginePackageTests.derived/runner.swift"]
+    outputs: ["/Users/ahmadwali04/Desktop/personal/Projects/WaliT/.build/index-build/arm64-apple-macosx/debug/WalitHashEnginePackageTests.build/sources"]
+    description: "Write auxiliary file /Users/ahmadwali04/Desktop/personal/Projects/WaliT/.build/index-build/arm64-apple-macosx/debug/WalitHashEnginePackageTests.build/sources"
+
+  "/Users/ahmadwali04/Desktop/personal/Projects/WaliT/.build/index-build/arm64-apple-macosx/debug/WalitHashEngineSwiftTests.build/sources":
+    tool: write-auxiliary-file
+    inputs: ["<sources-file-list>","/Users/ahmadwali04/Desktop/personal/Projects/WaliT/SwiftTests/WalitHashEngineSwiftTests.swift"]
+    outputs: ["/Users/ahmadwali04/Desktop/personal/Projects/WaliT/.build/index-build/arm64-apple-macosx/debug/WalitHashEngineSwiftTests.build/sources"]
+    description: "Write auxiliary file /Users/ahmadwali04/Desktop/personal/Projects/WaliT/.build/index-build/arm64-apple-macosx/debug/WalitHashEngineSwiftTests.build/sources"
+
+  "/Users/ahmadwali04/Desktop/personal/Projects/WaliT/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt":
+    tool: write-auxiliary-file
+    inputs: ["<swift-get-version>","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"]
+    outputs: ["/Users/ahmadwali04/Desktop/personal/Projects/WaliT/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"]
+    always-out-of-date: "true"
+    description: "Write auxiliary file /Users/ahmadwali04/Desktop/personal/Projects/WaliT/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+
+  "<WalitHashEnginePackageTests-arm64-apple-macosx-debug.module>":
+    tool: phony
+    inputs: ["/Users/ahmadwali04/Desktop/personal/Projects/WaliT/.build/index-build/arm64-apple-macosx/debug/Modules/WalitHashEnginePackageTests.swiftmodule"]
+    outputs: ["<WalitHashEnginePackageTests-arm64-apple-macosx-debug.module>"]
+
+  "<WalitHashEngineSwiftTests-arm64-apple-macosx-debug.module>":
+    tool: phony
+    inputs: ["/Users/ahmadwali04/Desktop/personal/Projects/WaliT/.build/index-build/arm64-apple-macosx/debug/Modules/WalitHashEngineSwiftTests.swiftmodule"]
+    outputs: ["<WalitHashEngineSwiftTests-arm64-apple-macosx-debug.module>"]
+
+  "C.WalitHashEnginePackageTests-arm64-apple-macosx-debug.module":
+    tool: shell
+    inputs: ["/Users/ahmadwali04/Desktop/personal/Projects/WaliT/.build/index-build/arm64-apple-macosx/debug/WalitHashEnginePackageTests.derived/runner.swift","/Users/ahmadwali04/Desktop/personal/Projects/WaliT/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt","/Users/ahmadwali04/Desktop/personal/Projects/WaliT/.build/index-build/arm64-apple-macosx/debug/Modules/WalitHashEngineSwiftTests.swiftmodule","/Users/ahmadwali04/Desktop/personal/Projects/WaliT/.build/index-build/arm64-apple-macosx/debug/WalitHashEnginePackageTests.build/sources"]
+    outputs: ["/Users/ahmadwali04/Desktop/personal/Projects/WaliT/.build/index-build/arm64-apple-macosx/debug/Modules/WalitHashEnginePackageTests.swiftmodule"]
+    description: "Compiling Swift Module 'WalitHashEnginePackageTests' (1 sources)"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-module-name","WalitHashEnginePackageTests","-emit-dependencies","-emit-module","-emit-module-path","/Users/ahmadwali04/Desktop/personal/Projects/WaliT/.build/index-build/arm64-apple-macosx/debug/Modules/WalitHashEnginePackageTests.swiftmodule","-output-file-map","/Users/ahmadwali04/Desktop/personal/Projects/WaliT/.build/index-build/arm64-apple-macosx/debug/WalitHashEnginePackageTests.build/output-file-map.json","-parse-as-library","-incremental","@/Users/ahmadwali04/Desktop/personal/Projects/WaliT/.build/index-build/arm64-apple-macosx/debug/WalitHashEnginePackageTests.build/sources","-I","/Users/ahmadwali04/Desktop/personal/Projects/WaliT/.build/index-build/arm64-apple-macosx/debug/Modules","-target","arm64-apple-macosx13.0","-incremental","-enable-batch-mode","-serialize-diagnostics","-index-store-path","/Users/ahmadwali04/Desktop/personal/Projects/WaliT/.build/index-build/arm64-apple-macosx/debug/index/store","-Onone","-enable-testing","-Xfrontend","-enable-cross-import-overlays","-j10","-DSWIFT_PACKAGE","-DDEBUG","-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE","-Xcc","-fmodule-map-file=/Users/ahmadwali04/Desktop/personal/Projects/WaliT/cpp/module.modulemap","-Xcc","-I","-Xcc","/Users/ahmadwali04/Desktop/personal/Projects/WaliT/cpp","-module-cache-path","/Users/ahmadwali04/Desktop/personal/Projects/WaliT/.build/index-build/arm64-apple-macosx/debug/ModuleCache","-parseable-output","-parse-as-library","-emit-objc-header","-emit-objc-header-path","/Users/ahmadwali04/Desktop/personal/Projects/WaliT/.build/index-build/arm64-apple-macosx/debug/WalitHashEnginePackageTests.build/include/WalitHashEnginePackageTests-Swift.h","-cxx-interoperability-mode=default","-Xcc","-std=c++17","-Xfrontend","-experimental-lazy-typecheck","-Xfrontend","-experimental-skip-all-function-bodies","-Xfrontend","-experimental-allow-module-with-compiler-errors","-Xfrontend","-empty-abi-descriptor","-plugin-path","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-g","-Xcc","-isysroot","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.sdk","-Xcc","-F","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-Xcc","-fPIC","-Xcc","-g","-package-name","walit"]
+
+  "C.WalitHashEngineSwiftTests-arm64-apple-macosx-debug.module":
+    tool: shell
+    inputs: ["/Users/ahmadwali04/Desktop/personal/Projects/WaliT/SwiftTests/WalitHashEngineSwiftTests.swift","/Users/ahmadwali04/Desktop/personal/Projects/WaliT/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt","/Users/ahmadwali04/Desktop/personal/Projects/WaliT/cpp/WalitHashEngine.h","/Users/ahmadwali04/Desktop/personal/Projects/WaliT/cpp/sha256.h","/Users/ahmadwali04/Desktop/personal/Projects/WaliT/.build/index-build/arm64-apple-macosx/debug/WalitHashEngineSwiftTests.build/sources"]
+    outputs: ["/Users/ahmadwali04/Desktop/personal/Projects/WaliT/.build/index-build/arm64-apple-macosx/debug/Modules/WalitHashEngineSwiftTests.swiftmodule"]
+    description: "Compiling Swift Module 'WalitHashEngineSwiftTests' (1 sources)"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-module-name","WalitHashEngineSwiftTests","-emit-dependencies","-emit-module","-emit-module-path","/Users/ahmadwali04/Desktop/personal/Projects/WaliT/.build/index-build/arm64-apple-macosx/debug/Modules/WalitHashEngineSwiftTests.swiftmodule","-output-file-map","/Users/ahmadwali04/Desktop/personal/Projects/WaliT/.build/index-build/arm64-apple-macosx/debug/WalitHashEngineSwiftTests.build/output-file-map.json","-parse-as-library","-incremental","@/Users/ahmadwali04/Desktop/personal/Projects/WaliT/.build/index-build/arm64-apple-macosx/debug/WalitHashEngineSwiftTests.build/sources","-I","/Users/ahmadwali04/Desktop/personal/Projects/WaliT/.build/index-build/arm64-apple-macosx/debug/Modules","-target","arm64-apple-macosx14.0","-incremental","-enable-batch-mode","-serialize-diagnostics","-index-store-path","/Users/ahmadwali04/Desktop/personal/Projects/WaliT/.build/index-build/arm64-apple-macosx/debug/index/store","-Onone","-enable-testing","-Xfrontend","-enable-cross-import-overlays","-j10","-DSWIFT_PACKAGE","-DDEBUG","-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE","-Xcc","-fmodule-map-file=/Users/ahmadwali04/Desktop/personal/Projects/WaliT/cpp/module.modulemap","-Xcc","-I","-Xcc","/Users/ahmadwali04/Desktop/personal/Projects/WaliT/cpp","-module-cache-path","/Users/ahmadwali04/Desktop/personal/Projects/WaliT/.build/index-build/arm64-apple-macosx/debug/ModuleCache","-parseable-output","-parse-as-library","-swift-version","5","-cxx-interoperability-mode=default","-Xcc","-std=c++17","-Xfrontend","-experimental-lazy-typecheck","-Xfrontend","-experimental-skip-all-function-bodies","-Xfrontend","-experimental-allow-module-with-compiler-errors","-Xfrontend","-empty-abi-descriptor","-plugin-path","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-g","-Xcc","-isysroot","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.sdk","-Xcc","-F","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-Xcc","-fPIC","-Xcc","-g","-package-name","walit"]
+
+  "PackageStructure":
+    tool: package-structure-tool
+    inputs: ["/Users/ahmadwali04/Desktop/personal/Projects/WaliT/SwiftTests/","/Users/ahmadwali04/Desktop/personal/Projects/WaliT/cpp/","/Users/ahmadwali04/Desktop/personal/Projects/WaliT/Package.swift","/Users/ahmadwali04/Desktop/personal/Projects/WaliT/Package.resolved"]
+    outputs: ["<PackageStructure>"]
+    description: "Planning build"
+    allow-missing-inputs: true
+

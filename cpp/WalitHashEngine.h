@@ -50,4 +50,9 @@ std::string computeBlockHash(int blockIndex,
 // Returns the index of the first broken block, if any.
 ValidationResult validateChain(const std::vector<Block>& blocks);
 
+// Swift's C++ interop can't spell out std::vector<T> template instantiations directly;
+// callers get a concretely-typed empty vector from these and push_back onto it instead.
+std::vector<LineItem> makeLineItemVector();
+std::vector<Block> makeBlockVector();
+
 } // namespace WalitHashEngine

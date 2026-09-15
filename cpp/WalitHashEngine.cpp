@@ -116,4 +116,12 @@ ValidationResult validateChain(const std::vector<Block>& blocks) {
     return ValidationResult{true, -1};
 }
 
+std::vector<LineItem> makeLineItemVector() {
+    return {};
+}
+
+std::vector<Block> makeBlockVector() {
+    return {};
+}
+
 } // namespace WalitHashEngine
