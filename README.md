@@ -1,8 +1,21 @@
 # WaliT
 
-**A tap-to-pay receipt wallet with a self-built blockchain integrity layer.**
+This was the idea for my first startup! It's **A tap-to-pay receipt wallet with a self-built blockchain integrity layer.** Instead of saving physical receipts, or being bothered to write my email/phone number into a checkout kiosk, WaliT is the idea that I can tap to receive my receipt like an NFT on my phone. By storing your receipt on a blockchain, we can prove it hasn't been tampered with, that it is authentic and only yours. 
 
-WaliT is a mobile proof-of-concept that hands you a cryptographically verifiable digital receipt the instant you tap to pay. Every receipt is hashed by a hand-written C++ SHA-256 engine, chained to the receipt before it like a blockchain, and stored in MongoDB — so tampering with a receipt after the fact is mathematically detectable, not just "trust us."
+For the time being this is just a public proof of concept to show the idea, and my knowledge of Swift/C++. I am continuing to work on more features for WaliT in my spare time in its own private repository. Feel free to ask me about more!
+
+## Screenshots
+
+<p align="center">
+   <img src="screenshots/Home.png" width="180" alt="WaliT home screen">
+   <img src="screenshots/receipts.png" width="180" alt="WaliT receipts screen">
+   <img src="screenshots/receipt.png" width="180" alt="WaliT receipt detail screen">
+   <img src="screenshots/Notification.png" width="180" alt="WaliT receipt notification">
+   <img src="screenshots/Settings.png" width="180" alt="WaliT settings screen">
+</p>
+
+
+I built this as a proof-of-concept that hands you a cryptographically verifiable digital receipt the instant you tap to pay. Every receipt is hashed by a hand-written C++ SHA-256 engine, chained to the receipt before it like a blockchain, and stored in MongoDB — so tampering with a receipt after the fact is mathematically detectable.
 
 It's a small project deliberately built to span three disciplines at once: **native iOS**, **systems-level C++**, and **backend/database engineering** — wired together into one coherent, working feature rather than three disconnected demos.
 
